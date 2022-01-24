@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6109628417288638906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4624973151460582521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88555d9fca393ce15bc9725fd2176e24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackDelay: 1.25
+  attackDamage: 10
+  attackLayer: 10
+  attackSound: {fileID: 8300000, guid: f4bbed699e0ab3c5eaba032d39c5dafb, type: 3}
+--- !u!195 &8549932652873060481
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4624973151460582521}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 1
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &9039295327921003573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4624973151460582521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03b0f588886e418458e7048e5c76d66d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 7
+  nearFactor: 0.5
+--- !u!1001 &231759403127383809
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -3190229064048814962, guid: e22894f8a04ebcb31a45def9239a2b45, type: 3}
+      propertyPath: healthMax
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831757845282809516, guid: e22894f8a04ebcb31a45def9239a2b45, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831757845282809516, guid: e22894f8a04ebcb31a45def9239a2b45, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831757845282809516, guid: e22894f8a04ebcb31a45def9239a2b45, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831757845282809516, guid: e22894f8a04ebcb31a45def9239a2b45, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831757845282809516, guid: e22894f8a04ebcb31a45def9239a2b45, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831757845282809516, guid: e22894f8a04ebcb31a45def9239a2b45, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831757845282809516, guid: e22894f8a04ebcb31a45def9239a2b45, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831757845282809516, guid: e22894f8a04ebcb31a45def9239a2b45, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831757845282809516, guid: e22894f8a04ebcb31a45def9239a2b45, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831757845282809516, guid: e22894f8a04ebcb31a45def9239a2b45, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831757845282809516, guid: e22894f8a04ebcb31a45def9239a2b45, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4834732263201915768, guid: e22894f8a04ebcb31a45def9239a2b45, type: 3}
+      propertyPath: m_Name
+      value: Zombie Minion
+      objectReference: {fileID: 0}
+    - target: {fileID: 4835910020874492746, guid: e22894f8a04ebcb31a45def9239a2b45, type: 3}
+      propertyPath: healthMax
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7625904660989981878, guid: e22894f8a04ebcb31a45def9239a2b45, type: 3}
+      propertyPath: healthMax
+      value: 50
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e22894f8a04ebcb31a45def9239a2b45, type: 3}
+--- !u!1 &4624973151460582521 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4834732263201915768, guid: e22894f8a04ebcb31a45def9239a2b45, type: 3}
+  m_PrefabInstance: {fileID: 231759403127383809}
+  m_PrefabAsset: {fileID: 0}

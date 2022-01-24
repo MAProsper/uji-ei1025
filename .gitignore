@@ -1,0 +1,10 @@
+/Logs/
+/Packages/
+/UserSettings/
+/ProjectSettings/
+/Assets/Audio/
+/Assets/External/
+*.csproj*
+*.meta
+.*
+!.git*
